@@ -1,0 +1,100 @@
+/* primary text color - #757575 */
+/* secondary text color - #212121 */
+/* hero text color - #ffffff */
+/* physical address text color - rgba(255, 255, 255, 0.6) */
+/* accent color - #2196F3 */
+/* hero/footer background - #2F303A */
+/* team background color - #F5F4FA */
+/* letter-spacing: 0.03em everywhere except hero, nav and header address*/
+
+/* --------- CSS for Studio --------- */
+
+/* HERO */
+.hero > .hero-title {
+  background-color: #2f303a;
+  color: var(--hero-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+  cursor: pointer;
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* OUR FEATURES */
+.main-section {
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+.features .title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* WHAT WE DO */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* OUR TEAM */
+.main-section.team {
+  background-color: var(--filter-color);
+}
+
+/* --------- CSS for Portfolio --------- */
+
+.filter > .buttons {
+  background-color: var(--filter-color);
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.filter > .buttons:hover,
+.filter > .buttons:focus,
+.filter > .accent {
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+}
+
+.works .work {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works .desc {
+  font-size: 16px;
+  line-height: 1.87;
+}
