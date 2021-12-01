@@ -16,6 +16,20 @@ body {
 
 /* HEADER */
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid teal;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   color: var(--secondary-text-color);
   font-family: Raleway, sans-serif;
@@ -24,21 +38,36 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 93px;
 }
 
 .item {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
+
+}
+
+.site-nav {
+  display: flex;
+}
+
+
+
+.site-nav .gap:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-nav .link {
   color: var(--secondary-text-color);
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding: 32px 0;
+  display: block;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
 }
 
 .site-nav .link:hover,
@@ -50,6 +79,13 @@ body {
   color: var(--accent-color);
 }
 
+.head-address {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+
+
+}
 .head-address .contact {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -58,6 +94,14 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.head-address .contact {
+}
+
+.contact:first-child {
+  outline 2px solid teal;
+  margin-right: 50px;
 }
 
 .contact:hover,
@@ -107,4 +151,5 @@ body {
 
 .no-marker {
   list-style: none;
+  padding: 0;
 }

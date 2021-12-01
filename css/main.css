@@ -1,46 +1,61 @@
-/* primary text color - #757575 */
-/* secondary text color - #212121 */
-/* hero text color - #ffffff */
-/* physical address text color - rgba(255, 255, 255, 0.6) */
-/* accent color - #2196F3 */
-/* hero/footer background - #2F303A */
-/* team background color - #F5F4FA */
-/* letter-spacing: 0.03em everywhere except hero, nav and header address*/
-
 /* --------- CSS for Studio --------- */
 
 /* HERO */
-.hero > .hero-title {
+
+.hero {
+  text-align: center;
   background-color: #2f303a;
+  padding: 200px 0;
+}
+
+.hero > .hero-title {
   color: var(--hero-text-color);
+
+  margin-top: 0;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.button {
+.hero > .button {
+  display: inline-block;
+  height: 50px;
+  min-width: 200px;
   background-color: var(--accent-color);
   color: var(--hero-text-color);
   cursor: pointer;
   font-family: inherit;
+  padding: 10px 32px;
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.9px;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 /* OUR FEATURES */
 .main-section {
-  color: var(--primary-text-color);
 }
 
 .section-title {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
 }
 
 .features .title {
@@ -52,17 +67,19 @@
   text-transform: uppercase;
 }
 
+.features {
+  display: flex;
+}
+
 .features .text {
   font-size: 14px;
   line-height: 1.71;
 }
 
 /* WHAT WE DO */
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+
+.pics {
+  display: flex;
 }
 
 /* OUR TEAM */
@@ -71,12 +88,17 @@
 }
 
 /* --------- CSS for Portfolio --------- */
+.project-title {
+  display: none;
+}
 
 .filter > .buttons {
   background-color: var(--filter-color);
   color: var(--secondary-text-color);
   cursor: pointer;
   font-family: inherit;
+
+  display: flex;
 }
 
 .filter > .buttons:hover,
@@ -86,7 +108,7 @@
   color: var(--hero-text-color);
 }
 
-.works .work {
+.works .work-title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -97,4 +119,13 @@
 .works .desc {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-list {
+  margin-right: 30px;
 }
