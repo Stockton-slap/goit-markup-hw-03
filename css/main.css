@@ -129,10 +129,10 @@
   color: var(--secondary-text-color);
   cursor: pointer;
   font-family: inherit;
-  margin-right: 8px;
   border-radius: 4px;
   padding: 6px 22px;
   border: none;
+  margin-right: 8px;
 
   font-weight: 500;
   font-size: 16px;
@@ -157,18 +157,28 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin: 20px 24px 4px;
 }
 
 .works .desc {
   font-size: 16px;
   line-height: 1.87;
+
+  margin: 4px 24px 20px;
 }
 
 .works {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1230px;
+  margin-bottom: 94px;
 }
 
 .work-list {
   margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
