@@ -29,7 +29,6 @@
   color: var(--hero-text-color);
   cursor: pointer;
   font-family: inherit;
-  padding: 10px 32px;
 
   font-weight: 700;
   font-size: 16px;
@@ -175,8 +174,8 @@
 .works {
   display: flex;
   flex-wrap: wrap;
-  width: 1230px;
   margin-bottom: 94px;
+  width: inherit;
 }
 
 .work-list {
@@ -184,4 +183,6 @@
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  width: 370px;
+  height: 404px;
 }
