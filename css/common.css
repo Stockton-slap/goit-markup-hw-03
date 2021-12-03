@@ -26,8 +26,9 @@ body {
   padding-right: 15px;
 }
 
-.container-sub {
+.page-header > .header-flex {
   display: flex;
+  height: 80px;
 }
 
 .navigation {
@@ -111,6 +112,7 @@ body {
 .main-address {
   background-color: #2f303a;
   padding: 60px 0;
+  height: 252px;
 }
 
 .footer-logo {
