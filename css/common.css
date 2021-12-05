@@ -29,6 +29,7 @@ body {
 .page-header > .header-flex {
   display: flex;
   height: 80px;
+  justify-content: space-between;
 }
 
 .navigation {
