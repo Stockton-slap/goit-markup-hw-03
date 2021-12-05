@@ -24,7 +24,7 @@
 .hero > .button {
   display: inline-block;
   height: 50px;
-  min-width: 200px;
+  width: 200px;
   background-color: var(--accent-color);
   color: var(--hero-text-color);
   cursor: pointer;
