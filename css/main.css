@@ -87,8 +87,17 @@
   padding-bottom: 50px;
 }
 
-.visually-hidden {
-  display: none;
+.section-title.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .features .title-one {
@@ -134,9 +143,19 @@
 }
 
 /* --------- CSS for Portfolio --------- */
-.project-title {
-  display: none;
+.project-title.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
+
 .filter {
   display: flex;
   justify-content: center;
